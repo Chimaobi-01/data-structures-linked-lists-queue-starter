@@ -97,6 +97,7 @@ describe('SinglyLinkedList', () => {
                     length: 2
                 });
             });
+
         });
 
         describe('addToTail', () => {

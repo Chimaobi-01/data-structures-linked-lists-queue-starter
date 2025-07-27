@@ -153,7 +153,7 @@ describe('Queue', () => {
         expect(queue.dequeue()).to.equal('B');
       });
     });
-
+    
   });
 
   describe('Queue Behavior', () => {

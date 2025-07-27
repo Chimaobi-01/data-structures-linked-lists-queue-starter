@@ -210,7 +210,7 @@ describe('DoublyLinkedList Methods', () => {
             expect(list.peekAtTail()).to.equal('B');
         });
     });
-    
+
     context('removeFromTail()', () => {
         it('Should return undefined for an empty list', () => {
             const result = list.removeFromTail();
